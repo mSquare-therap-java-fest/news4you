@@ -7,16 +7,14 @@
 <html>
 <head>
 <title><tiles:insertAttribute name="title" ignore="true" /></title>
-<script type="text/javascript" src="js/sivalabs.js"></script>
+
 </head>
 <body>
 
-	<table border="1" style="border-collapse: collapse;" cellpadding="2"
-		cellspacing="2" align="center" width="800">
+	<table border="1" style="border-collapse: collapse;" style="width:800px">
 		<tbody>
 			<tr>
-				<td height="30" colspan="2"><tiles:insertAttribute
-						name="header" /></td>
+				<td height="30" colspan="2"><tiles:insertAttribute name="header" /></td>
 			</tr>
 			<tr>
 				<td width="150" height="450" valign="top"><tiles:insertAttribute

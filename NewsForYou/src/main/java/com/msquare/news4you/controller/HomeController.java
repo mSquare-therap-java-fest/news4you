@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping(value = "/home")
 public class HomeController {
 
-	@RequestMapping(value = "/index", method = RequestMethod.GET)
+/*	@RequestMapping(value = "/index", method = RequestMethod.GET)
 	public String index(Locale locale, Model model) {
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG,
@@ -40,5 +40,5 @@ public class HomeController {
 
 		return "home";
 	}
-
+*/
 }
