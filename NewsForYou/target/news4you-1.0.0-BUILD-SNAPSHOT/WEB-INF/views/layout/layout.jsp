@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE>
 
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
+<!DOCTYPE>
 
 <html>
 <head>
@@ -11,10 +11,12 @@
 </head>
 <body>
 
-	<table border="1" style="border-collapse: collapse;" style="width:800px">
+	<table border="1" style="border-collapse: collapse;"
+		style="width:800px">
 		<tbody>
 			<tr>
-				<td height="30" colspan="2"><tiles:insertAttribute name="header" /></td>
+				<td height="30" colspan="2"><tiles:insertAttribute
+						name="header" /></td>
 			</tr>
 			<tr>
 				<td width="150" height="450" valign="top"><tiles:insertAttribute
